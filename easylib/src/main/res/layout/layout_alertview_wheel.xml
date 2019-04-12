@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/loAlertHeader"
+        android:background="@drawable/bg_alert_wheel_header"
+        android:layout_weight="1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAlertTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_alert_button"
+            android:gravity="center"
+            android:textColor="@color/textColor_alert_wheel_button_cancel"
+            android:textSize="@dimen/textSize_actionsheet_title" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dee0dd"
+            />
+
+        <TextView
+            android:id="@+id/tvAlertMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_actionsheet_msg"
+            android:gravity="center"
+            android:textColor="@color/textColor_actionsheet_msg"
+            android:textSize="@dimen/textSize_actionsheet_msg" />
+        <!--<ListView-->
+            <!--android:id="@+id/alertButtonListView"-->
+            <!--android:layout_weight="1.0"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:listSelector="@drawable/bg_alertbutton_none"-->
+            <!--android:cacheColorHint="@android:color/transparent"-->
+            <!--android:divider="@null"-->
+            <!--android:scrollbars="none"/>-->
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/alertwheel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="150dp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dee0dd"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAlertCancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_alert_button"
+            android:layout_weight="1"
+            android:background="@drawable/bg_wheel_left_cancel"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/textColor_alert_wheel_button_cancel"
+            android:textSize="@dimen/textSize_alert_button"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dee0dd"
+            />
+
+        <TextView
+            android:id="@+id/tvAlertOk"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_alert_button"
+            android:layout_weight="1"
+            android:background="@drawable/bg_wheel_right"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="@color/textColor_alert_wheel_button_cancel"
+            android:textSize="@dimen/textSize_alert_button"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</LinearLayout>

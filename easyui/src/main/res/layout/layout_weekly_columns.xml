@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/Monday"
+        layout="@layout/widget_column1" />
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/main_color" />
+
+    <include
+        android:id="@+id/Tuesday"
+        layout="@layout/widget_column2" />
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/main_color" />
+
+    <include
+        android:id="@+id/Wednesday"
+        layout="@layout/widget_column3" />
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/main_color" />
+
+    <include
+        android:id="@+id/Thursday"
+        layout="@layout/widget_column4" />
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/main_color" />
+
+    <include
+        android:id="@+id/Friday"
+        layout="@layout/widget_column5" />
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/main_color" />
+
+    <include
+        android:id="@+id/Saturday"
+        layout="@layout/widget_column6" />
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/main_color" />
+
+    <include
+        android:id="@+id/Sunday"
+        layout="@layout/widget_column7" />
+</LinearLayout>

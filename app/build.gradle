@@ -1,0 +1,191 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    aaptOptions
+            {
+                noCompress 'KARMarker'
+                noCompress 'armodel'
+            }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            aidl.srcDirs = ['src/main/java/com/android/internal/telephony']
+            java.srcDirs = ['src/main/java', 'src/main/java-gen']
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+
+    defaultConfig {
+        applicationId "com.eastudio.ardemo"
+        minSdkVersion 19
+        targetSdkVersion 28
+
+        versionCode 1
+        versionName "V1.0.1.0001(hb)"
+        multiDexEnabled true
+        flavorDimensions "versionCode"
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi', 'armeabi-v7a', 'x86'
+            //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "210c8f75fb4f9739a26bc09e", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+    }
+
+    productFlavors {
+        PAX {
+            applicationId "com.eastudio.ardemo"
+            manifestPlaceholders = [app_name         : "环保项目",
+                                    icon             : "@mipmap/logo",
+                                    gaodekey         : "6405e70674c8f0b88f668712b3687a59",
+                                    umengkey         : "599a742acae7e71d2c001a4b",
+                                    umeng_message_key: "6199e5d1a6a65175db7cd0b26a1aa748",
+                                    app_packname     : "com.eastudio.ardemo"
+            ]
+
+            resValue("string", "BuglyKey", "403fc9e518")
+            resValue("string", "BuglyValue", "e43ccc77-5611-47c5-abed-8f9b07a8e097")
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+
+
+    buildTypes {
+        release {
+//            ndk {
+//                abiFilters "x86", "armeabi"
+//            }
+
+            minifyEnabled false
+
+            // Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+            zipAlignEnabled true
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.debug
+        }
+    }
+
+
+    dependencies {
+        ///    implementation fileTree(dir: 'libs', include: ['*.jar'])
+        implementation project(':easylib')
+        implementation project(':easyui')
+
+        api 'com.android.support:multidex:1.0.1'
+        api 'com.android.support:design:28+'
+        api 'com.android.support:cardview-v7:28.+'
+
+        //butterknife依赖
+        api 'com.jakewharton:butterknife:9.0.0-rc1'
+        annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1'
+
+        //mvp框架beam的依赖
+//        api 'com.jude:beam:3.0.1'
+        api('com.jude:beam:3.0.1') {
+            exclude module: 'support-v4'
+        }
+
+
+        api 'com.nineoldandroids:library:2.4.0'
+        api 'pub.devrel:easypermissions:0.2.1'
+        api "io.reactivex.rxjava2:rxjava:2.2.7"
+
+        //LeakCanary 内存泄漏检测
+        debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5'
+        releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+        testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+
+        //bugly
+        api 'com.tencent.bugly:crashreport_upgrade:latest.release'
+        //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
+        api 'com.tencent.bugly:nativecrashreport:latest.release'
+
+        //下拉刷新组件
+        api 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+        api 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.3'//没有使用特殊Header，可以不加这行
+
+        //circleimageview
+        api 'de.hdodenhof:circleimageview:2.1.0'
+        //LRecyclerView
+        api 'com.github.jdsjlzx:LRecyclerView:1.5.1'
+        api 'com.lzy.widget:ninegridview:0.2.0'
+
+        //logger
+        api 'com.orhanobut:logger:2.1.1'
+        api 'com.jaeger.statusbarutil:library:1.4.0'
+
+        //极光推送
+        api files('libs/jpush-android-3.1.1.jar')
+        api files('libs/jcore-android-1.1.9.jar')
+
+        //图片压缩
+        api 'top.zibin:Luban:1.1.3'
+
+        //百分百布局
+        api 'com.zhy:percent-support-extends:1.0.1'
+
+        //轮播图片
+        api 'com.github.why168:LoopViewPagerLayout:2.0.6'
+
+        //七牛云依赖
+        api 'com.qiniu:qiniu-android-sdk:7.3.+'
+
+        //图片缓存
+//        api 'com.squareup.picasso:picasso:2.5.2'
+
+        //Arouter(阿里页面跳转)
+        api 'com.alibaba:arouter-api:1.2.1.1'
+        annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
+
+        //PushSDK必须依赖基础组件库，所以需要加入对应依赖
+        api 'com.umeng.sdk:common:1.5.3'
+        //PushSDK必须依赖utdid库，所以需要加入对应依赖
+        api 'com.umeng.sdk:utdid:1.1.5.3'
+        //PushSDK
+        api 'com.umeng.sdk:push:4.2.0'
+
+        api 'com.github.kongqw:AndroidSerialPort:1.0.1'
+
+        api 'com.umeng.sdk:common:latest.integration'
+        api 'com.umeng.sdk:analytics:latest.integration'
+
+        api 'org.greenrobot:greendao:3.2.2' // add library
+        api files('libs/EasyAR.jar')
+        api project(':KudanAR')
+
+//        implementation 'com.jaredrummler:android-processes:1.1.1'
+    }
+}
+

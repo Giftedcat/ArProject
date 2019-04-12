@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:src="@drawable/tree_house"
+        app:layout_widthPercent="66.94%w"
+        app:layout_heightPercent="43.85%h"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        app:layout_marginTopPercent="29.48%h"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="31dp"
+        app:layout_marginTopPercent="78.7%h"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="树屋"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="47dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/leaf_icon"
+                    android:layout_marginRight="21dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="21sp"
+                    android:textColor="@color/white"
+                    android:text="500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:background="@drawable/shape_button_shop"
+                android:layout_width="102dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:layout_height="36dp">
+
+                <TextView
+                    android:text="购买"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</com.zhy.android.percent.support.PercentRelativeLayout>

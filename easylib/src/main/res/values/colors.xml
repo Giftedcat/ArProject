@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2584ff</color>
+    <color name="dialog_blue">#0083FF</color>
+
+    <color name="transparent">#00000000</color>
+    <!--244 244 244-->
+    <color name="new_ui_left_menu_bg_color1">#ffF4F4F4</color>
+    <color name="new_ui_left_menu_line_color">#ffE6E6E6</color>
+    <!--565656-->
+    <color name="new_ui_left_menu_text_color">#ff383838</color>
+    <color name="all_text_hint_color">#aaaaaa</color>
+    <color name="line">#c8c8c8</color>
+    <color name="white">#ffffff</color>
+    <color name="login_hint_color">#ff999999</color>
+    <color name="login_selected_color">#ffFA7B48</color>
+    <color name="login_normal_color">#ff666666</color>
+    <!--243 128 74-->
+    <color name="new_ui_btn_text_color">#4179d6</color>
+    <!-- for bind ui -->
+    <color name="button_disabled_color">#c8c8c8</color>
+    <color name="button_enabled_color">#6cc980</color>
+    <color name="button_enabled_second_color">#FDF097</color>
+    <color name="button_enabled_textcolor">#454545</color>
+    <color name="button_disabled_textcolor">#ffffff</color>
+    <color name="bind_fail_color">#ff6060</color>
+    <color name="bind_success_color">#97d53e</color>
+    <!-- end by wufeng-->
+    <!--<color name="main_color">#4179d6</color>-->
+    <color name="setting_activity_no_call_default">#FFFFFF</color>
+    <!-- hhh edit-->
+    <color name="setting_custom_button_line_color">#919191</color>
+    <color name="setting_custom_all_button_background">#ffFFFFFF</color>
+    <color name="setting_between_button_background">#f5f5f5</color>
+    <color name="setting_activity_background">#FFFFFF</color>
+    <!-- hhh edit-->
+    <color name="setting_custom_button_state_color">#a0a0a0</color>
+    <color name="setting_custom_button_name_color">#454545</color>
+    <color name="dialog_exception_bg">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="setting_bg_color">#00BBC1</color>
+
+    <color name="red">#ff0000</color>
+    <color name="selector_grey">#DDDDDD</color>
+
+
+
+    <!-- 设置 -->
+    <color name="set_font_lightBlack">#656565</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+    <!--alert wheel模式的取消按钮背景颜色-->
+    <color name="bgColor_wheel_cancel_nor">#eceeeb</color>
+    <!--alert wheel模式取消按钮颜色-->
+    <color name="textColor_alert_wheel_button_cancel">#393b38</color>
+    <color name="main_color">#2584ff</color>
+    <color name="app_bg_color">#eeeeee</color>
+    <!--通讯录的9种颜色-->
+    <color name="color1">#268ee3</color>
+    <color name="color2">#1ec0cb</color>
+    <color name="color3">#43be6d</color>
+    <color name="color4">#f95c2f</color>
+    <color name="color5">#f12733</color>
+    <color name="color6">#5e4cee</color>
+    <color name="color7">#ef2732</color>
+    <color name="color8">#6052e3</color>
+    <color name="color9">#1d8ff0</color>
+
+    <color name="monitor_bg">#a02d94c1</color>
+    <color name="monitor_nomal_color">#ffffff</color>
+    <color name="monitor_error_color">#d0FF0000</color>
+
+</resources>

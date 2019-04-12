@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="mtf_cardHeight_initial">4dp</dimen>
+    <dimen name="mtf_cardHeight_final">45dp</dimen>
+    <dimen name="mtf_corner_radius">4dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- add by wufeng-->
+    <!-- 日程 -->
+    <dimen name="leader_schedule_content_paddingHorizontal">8dp</dimen>
+    <!--日程模块内容水平填充大小 -->
+    <dimen name="leader_schedule_content_paddingVertical">8dp</dimen>
+    <!--日程模块内容垂直填充大小 -->
+    <dimen name="leader_schedule_schedule_marginTop">8dp</dimen>
+    <!--日程模块日程内容上边距大小 -->
+    <dimen name="leader_schedule_calendar_bar_previours_btn_marginLeft">10dp</dimen>
+    <!--日程模块选择时间上一月按钮左边距 -->
+    <dimen name="leader_schedule_calendar_bar_next_btn_marginRight">10dp</dimen>
+    <!--日程模块选择时间下一月按钮右边距-->
+    <dimen name="leader_schedule_view_maring_top_spacing">1dp</dimen>
+    <!--日程模块view之间的间隙-->
+    <dimen name="leader_schedule_Schedule_TtileText_size">18sp</dimen>
+    <!--日程上下午字体大小-->
+    <dimen name="leader_schedule_Schedule_TtileText_paddingSpacing">5dp</dimen>
+    <!--日程上下午字体内容填充大小-->
+    <dimen name="leader_schedule_Schedule_DetailText_size">18sp</dimen>
+    <!--日程日程详情字体大小-->
+    <dimen name="leader_schedule_Schedule_DetailText_paddingSpacing">5dp</dimen>
+    <!--日程日程详情内容填充大小-->
+    <dimen name="leader_schedule_Schedule_Calendar_text_size">20sp</dimen>
+    <!--日程日期字体大小  2013年8月8日-->
+    <!-- 日历 -->
+    <dimen name="calendar_item_layout_padding">1dp</dimen>
+    <!--日历GridView的Item布局内容填充大小-->
+    <dimen name="calendar_item_text_size">14sp</dimen>
+    <!--日历Item日字体大小-->
+    <dimen name="calendar_week_day_text_size">16sp</dimen>
+    <!--日历中的星期的字体大小-->
+    <dimen name="calendar_week_day_item_marginLeft">3dp</dimen>
+    <!--日历中的星期的边距-->
+    <dimen name="calendar_week_day_item_marginRight">3dp</dimen>
+    <!--日历中的星期的边距-->
+    <dimen name="calendar_week_day_item_marginTop">6dp</dimen>
+    <!--日历中的星期的边距-->
+    <dimen name="calendar_week_day_item_marginBottom">6dp</dimen>
+    <!--日历中的星期的边距-->
+    <!-- end by wufeng-->
+
+    <dimen name="btn_stroke_width_dp">1dp</dimen>
+    <dimen name="btn_corner_radius_dp">5dp</dimen>
+    <dimen name="dp14">14dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp24">24dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp54">54dp</dimen>
+    <dimen name="dp106">106dp</dimen>
+    <dimen name="dp108">108dp</dimen>
+    <dimen name="dp163">163dp</dimen>
+    <dimen name="dp220">220dp</dimen>
+    <dimen name="to_bottom_dp55">55dp</dimen>
+    <!--hhh edit-->
+    <dimen name="settings_activity_title_text_size">16sp</dimen>
+    <dimen name="settings_custom_btn_view_height">56dp</dimen>
+    <dimen name="settings_custom_btn_name_width">200dp</dimen>
+    <dimen name="settings_custom_btn_state_padding_right">10dp</dimen>
+    <dimen name="settings_custom_btn_image_padding_right">6dp</dimen>
+    <dimen name="settings_custom_btn_text_size">16sp</dimen>
+    <dimen name="settings_custom_btn_text_tips_size">12sp</dimen>
+    <dimen name="settings_custom_switch_btn_name_width">250dp</dimen>
+
+    <!--标题文字大小-->
+    <dimen name="textSize_alert_title">18sp</dimen>
+    <dimen name="textSize_actionsheet_title">18sp</dimen>
+    <!--标题文字高度-->
+    <dimen name="height_alert_title">60dp</dimen>
+    <dimen name="height_actionsheet_title">40dp</dimen>
+    <!--消息文字大小-->
+    <dimen name="textSize_alert_msg">15sp</dimen>
+    <dimen name="textSize_actionsheet_msg">14sp</dimen>
+    <!--消息距离底部间距-->
+    <dimen name="marginBottom_alert_msg">25dp</dimen>
+    <dimen name="marginBottom_actionsheet_msg">14dp</dimen>
+    <!--窗口模式左右两边到屏幕的间距-->
+    <dimen name="margin_alert_left_right">40dp</dimen>
+    <dimen name="margin_actionsheet_left_right">10dp</dimen>
+    <!--线条粗细-->
+    <dimen name="size_divier">1dp</dimen>
+    <!--按钮的高度-->
+    <dimen name="height_alert_button">48dp</dimen>
+    <!--按钮文字大小-->
+    <dimen name="textSize_alert_button">18sp</dimen>
+    <!--圆角-->
+    <dimen name="radius_alertview">15px</dimen>
+</resources>

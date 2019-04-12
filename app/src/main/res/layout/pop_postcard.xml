@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/out_ll"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#7F000000"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="650dp"
+        app:layout_heightPercent="45.83%h"
+        app:layout_widthPercent="79.72%w"
+        app:layout_marginTopPercent="28.13%h"
+        android:layout_height="464dp">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/shape_postcard">
+
+            <TextView
+                android:textColor="#906507"
+                app:layout_textSizePercent="5.11%"
+                android:text="收到一张明信片"
+                app:layout_marginTopPercent="4.77%h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                app:layout_marginTopPercent="1.2%h"
+                android:layout_weight="1"
+                android:background="@drawable/shape_postcard_white"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="1dp">
+
+                <ImageView
+                    android:src="@drawable/mxp_1"
+                    android:layout_width="wrap_content"
+                    app:layout_marginTopPercent="4.3%h"
+                    app:layout_heightPercent="69.65%h"
+                    app:layout_widthPercent="91.29%w"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="#83A4B7"
+                    app:layout_marginLeftPercent="7.55%w"
+                    app:layout_marginRightPercent="7.55%w"
+                    app:layout_textSizePercent="4.3%"
+                    android:text="一封来自【杭州西湖】的明信片：谢谢您为家园做 的一份贡献，让冬天里的断桥残雪更加纯净美丽。"
+                    app:layout_marginTopPercent="2.6%h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

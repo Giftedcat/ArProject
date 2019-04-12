@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_weekly_column">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSubject30"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject31"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject32"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject33"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject34"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject35"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject36"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject37"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject38"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject39"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject310"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject311"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject312"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject313"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject314"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject315"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject316"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject317"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject318"
+            style="@style/style_text_subject"
+            android:text="" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+
+        <TextView
+            android:id="@+id/txtSubject319"
+            style="@style/style_text_subject"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>

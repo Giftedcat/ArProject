@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ARDemo.iml" filepath="$PROJECT_DIR$/ARDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KudanAR/KudanAR.iml" filepath="$PROJECT_DIR$/KudanAR/KudanAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easylib/easylib.iml" filepath="$PROJECT_DIR$/easylib/easylib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyui/easyui.iml" filepath="$PROJECT_DIR$/easyui/easyui.iml" />
+    </modules>
+  </component>
+</project>

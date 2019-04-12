@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/setting_activity_no_call_default">
+    <Button
+        android:id="@+id/btn_boy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_custom_btn_view_height"
+        android:background="@color/setting_custom_all_button_background"
+        android:text="男"
+        android:textColor="@color/setting_custom_button_name_color"
+        android:textSize="@dimen/settings_custom_btn_text_size"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#FFFFFFFF"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#ffe8e8e8"
+            ></View>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_girl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_custom_btn_view_height"
+        android:background="@color/setting_custom_all_button_background"
+        android:text="女"
+        android:textColor="@color/setting_custom_button_name_color"
+        android:textSize="@dimen/settings_custom_btn_text_size"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#ffe8e8e8"/>
+    
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_custom_btn_view_height"
+        android:background="@color/setting_custom_all_button_background"
+        android:text="取消"
+        android:textColor="@color/setting_custom_button_name_color"
+        android:textSize="@dimen/settings_custom_btn_text_size"/>
+</LinearLayout>

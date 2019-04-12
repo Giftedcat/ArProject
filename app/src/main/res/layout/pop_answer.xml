@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#7F000000"
+    android:id="@+id/out_ll"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:id="@+id/content_ll"
+        android:layout_width="650dp"
+        app:layout_heightPercent="45.83%h"
+        app:layout_widthPercent="79.72%w"
+        app:layout_marginTopPercent="28.13%h"
+        android:layout_height="464dp">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/shape_postcard">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:background="@drawable/shape_answer_title"
+                app:layout_heightPercent="15.36%h"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#906507"
+                    app:layout_textSizePercent="34.88%"
+                    android:text="每日签到"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <TextView
+                app:layout_marginTopPercent="15.7%h"
+                android:textColor="#906507"
+                app:layout_textSizePercent="5.36%"
+                android:text="每年的世界环境日在哪一天？"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnAnswer1"
+                app:layout_marginTopPercent="7.29%h"
+                app:layout_textSizePercent="5.4%"
+                android:layout_width="wrap_content"
+                app:layout_heightPercent="12.42%h"
+                android:text="6月5日"
+                android:textColor="#906507"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_widthPercent="52.88%w"
+                android:background="@drawable/shape_answer_button"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnAnswer2"
+                app:layout_marginTopPercent="5.4%h"
+                app:layout_textSizePercent="5.4%"
+                android:layout_width="wrap_content"
+                app:layout_heightPercent="12.42%h"
+                android:text="5月6日"
+                android:textColor="#906507"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_widthPercent="52.88%w"
+                android:background="@drawable/shape_answer_button"
+                android:layout_height="wrap_content" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:id="@+id/answer_ll"
+        android:layout_width="650dp"
+        app:layout_heightPercent="25.94%h"
+        android:background="@drawable/shape_postcard"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_widthPercent="34.44%w"
+        android:gravity="center_horizontal"
+        app:layout_marginTopPercent="33.39%h"
+        android:layout_height="464dp">
+
+        <ImageView
+            android:id="@+id/imgAnswer"
+            android:src="@drawable/true_icon"
+            app:layout_marginTopPercent="14.86%h"
+            app:layout_widthPercent="61.29%w"
+            app:layout_heightPercent="45.78%h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtAnswer"
+            android:text="答题错误"
+            app:layout_marginTopPercent="12%h"
+            android:textColor="#906507"
+            android:layout_width="wrap_content"
+            app:layout_textSizePercent="9.84%"
+            android:layout_height="wrap_content" />
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

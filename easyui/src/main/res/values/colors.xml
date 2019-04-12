@@ -1,0 +1,333 @@
+<resources>
+    <color name="white" >#ffffff</color>
+    <color name="bg_floder_press">#bdbdbd</color>
+    <color name="cc">#59a9ff</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="ijk_color_blue_main">@color/ijk_color_blue_500</color>
+    <color name="ijk_color_blue_50">#E3F2FD</color>
+    <color name="ijk_color_blue_100">#BBDEFB</color>
+    <color name="ijk_color_blue_200">#90CAF9</color>
+    <color name="ijk_color_blue_300">#64B5F6</color>
+    <color name="ijk_color_blue_400">#42A5F5</color>
+    <color name="ijk_color_blue_500">#2196F3</color>
+    <color name="ijk_color_blue_600">#1E88E5</color>
+    <color name="ijk_color_blue_700">#1976D2</color>
+    <color name="ijk_color_blue_800">#1565C0</color>
+    <color name="ijk_color_blue_900">#0D47A1</color>
+
+    <color name="ijk_transparent_dark">#77000000</color>
+
+    <color name="bg_color">#EDEDED</color>
+    <color name="player_progress_first">#373938</color>
+    <color name="player_progress_second">#FF66AA</color>
+    <color name="player_progress_bg">#FF6669</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="header">#58567D</color>
+    <color name="grgray">#686868</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2584ff</color>
+
+    <color name="scan_corner_color">#0effc2</color>
+
+    <color name="transparent2">#50000000</color>
+
+    <color name="login_line_color">#ffcacaca</color>
+    <color name="title_bar_bg_color">#ffFA7B48</color>
+
+    <color name="capture_text_cover_bg">#99535353</color>
+    <color name="seek_bar_text">#fff6f6f6</color>
+    <!-- hhh edit-->
+    <color name="boy_background_color_blue">#6657beff</color>
+    <color name="girl_background_color_pink">#66ff5484</color>
+    <color name="boy_item_click_background">#6679cbff</color>
+    <color name="girl_item_click_background">#66ff769d</color>
+    <color name="boy_item_background">#79cbff</color>
+    <color name="girl_item_background">#ff769d</color>
+    <color name="title_item_click">#66ffffff</color>
+    <color name="view_item_color">#ccffffff</color>
+    <color name="welcome_background_color">#ffde00</color>
+    <color name="login_color">#423b52</color>
+    <!--202 202 202-->
+    <color name="login_hint_color">#ff999999</color>
+    <color name="main_activity_map_up">#80000000</color>
+    <color name="main_activity_dev_title">#ffe199</color>
+    <!--102 102 102-->
+    <color name="main_activity_four_button">#ff666666</color>
+    <color name="new_ui_text_white_color">#ffFFFFFF</color>
+    <color name="app_status_color">#ffeeab45</color>
+    <!-- color:orange -->
+    <color name="textview_background_color">#ffde00</color>
+    <!-- dialog color -->
+    <color name="bound_title_text_color">#a0a0a0</color>
+    <color name="bound_title_text_background_color">#f0f0f0</color>
+    <color name="gray">#ff808080</color>
+    <color name="black2">#ffeeeeee</color>
+    <color name="carmer_background">#303030</color>
+    <color name="baby_info_text_color">#a0a0a0</color>
+    <color name="green">#ccff66</color>
+
+    <!--565656-->
+    <color name="new_ui_left_menu_text_color">#ff383838</color>
+    <color name="all_text_hint_color">#aaaaaa</color>
+    <!--153 153 153-->
+    <color name="new_ui_left_menu_parents_phone_text_color">#ff999999</color>
+    <!--230 230 230-->
+    <color name="new_ui_border230_color">#ffE6E6E6</color>
+
+    <color name="orange1">#FFA500</color>
+    <!--243 128 74-->
+    <color name="new_ui_left_btn_normal">#fff3804a</color>
+    <!--102 102 102-->
+    <color name="new_ui_textcolor_102_102_102">#ff666666</color>
+    <!--20%_140_151_203-->
+    <color name="new_ui_fencecolor_140_151_203">#338C97CB</color>
+    <color name="poly_geo_fence_stroke_color">#8C97CB</color>
+    <color name="gary">#898989</color>
+    <color name="step_bg_color">#F3804A</color>
+    <color name="step_progress_color">#72B5FB</color>
+    <color name="wheel_picker_bg">#eeeeee</color>
+    <color name="wheel_picker_text">#0091ea</color>
+    <color name="cbbbbbb">#bbbbbb</color>
+    <color name="c999999">#999999</color>
+    <color name="setting_small_title">#a0a0a0</color>
+    <!--244 244 244-->
+    <color name="new_ui_left_menu_bg_color1">#ffF4F4F4</color>
+    <color name="new_ui_left_menu_line_color">#ffE6E6E6</color>
+    <!--<color name="new_ui_theme_orange_color1">#fff3804a</color>-->
+    <color name="new_ui_theme_orange_color1">#eeae45</color>
+    <!--243 128 74-->
+    <color name="new_ui_btn_text_color">#fff3804a</color>
+    <!--250_123_72-->
+    <color name="new_ui_color_250_123_72">#ffFA7B48</color>
+    <!-- main color -->
+    <color name="main_title_text_color">#a0a0a0</color>
+    <color name="main_title_background_color">#f5f5f5</color>
+    <color name="main_text_color">#454545</color>
+    <color name="text_color">#000000</color>
+    <color name="btn_normal">#FFFFFF</color>
+    <color name="title_color">#ffffff</color>
+    <color name="background_color">#DBDBDB</color>
+    <color name="account_title_text_color">#828282</color>
+    <color name="account_title_background_color">#c8c8c8</color>
+    <color name="user_name_color">#99000000</color>
+    <color name="user_info_color">#828282</color>
+    <color name="edit_cursor_color">#4EC2FB</color>
+    <color name="common_color">#41B1E1</color>
+    <color name="edit_myphoe_color">#c8c8c8</color>
+
+
+    <color name="light_gray">#D9D9D9</color>
+    <color name="color_fence_actionbar_header_line">#ff0b0d0f</color>
+    <color name="seekbar_background">#DEDEDE</color>
+    <color name="seekbar_progress">#00AEEF</color>
+    <color name="seekbar_disable_progress">#5A5959</color>
+    <color name="fence_fill_color_normal">#bcff65</color>
+    <color name="fence_stroke_color_normal">#19bcff65</color>
+    <color name="fence_border_dot_color_normal">#bcff65</color>
+    <color name="settings_custom_button_background_press">#dddddd</color>
+    <!-- common transparent color-->
+    <color name="setting_commom_transparent_color">#00000000</color>
+    <!-- time picker button text color-->
+    <color name="setting_custom_time_picker_button_color">#00BFFF</color>
+    <!-- message center-->
+    <color name="setting_message_center_date_color">#bcbcbc</color>
+    <color name="setting_message_center_content_color">#454545</color>
+
+    <!-- -->
+    <color name="card_btn">#FFD800</color>
+    <color name="card_unenable_btn">#EEEEF8</color>
+
+    <!---->
+    <color name="colorTextTitle">#333333</color>
+    <color name="colorTextContent">#444444</color>
+    <color name="colorTextAssistant">#888888</color>
+    <color name="app_bg_color">#eeeeee</color>
+    <color name="tab_selected_color">#4179d6</color>
+    <color name="tab_normal_color">#afafaf</color>
+
+    <!--add by Harvey -->
+    <color name="fence_fill_color">#19ffde00</color>
+    <color name="fence_stroke_color">#ffde00</color>
+    <color name="fence_fill_color_danger">#19D4838A</color>
+    <color name="fence_stroke_color_danger">#D4838A</color>
+
+    <color name="hui">#808080</color>
+    <color name="tab_gb">#f9f9f9</color>
+
+    <color name="divide_line">#DFDFDF</color>
+
+    <!-- add by Harvey -->
+    <color name="app_background">#A9A9A9</color>
+    <color name="color_white">#ffffff</color>
+
+    <!--add by Harvey -->
+
+    <color name="fence_move_fill_color">#19bcff65</color>
+    <color name="fence_move_stroke_color">#bcff65</color>
+    <color name="fence_move_fill_color_danger">#19ff5484</color>
+    <color name="fence_move_stroke_color_danger">#ff5484</color>
+
+
+    <!--add by Zhangweixiao 1126 start-->
+    <color name="ef_background_color_pink">#ff5484</color>
+    <color name="ef_background_color_blue">#57beff</color>
+    <color name="ef_line_color_pink">#a0dcaa</color>
+    <color name="ef_dark_gray">#3C3F41</color>
+    <color name="ef_common_title_text_color">#454545</color>
+    <color name="ef_item_title_text_color">#a0a0a0</color>
+    <color name="ef_item_title_background">#f5f5f5</color>
+    <color name="ef_item_line_color">#111111</color>
+    <color name="ef_white">#ffffff</color>
+    <color name="ef_black">#000000</color>
+    <color name="ef_long_button_background">#6cc980</color>
+    <color name="ef_item_content_text_color">#454545</color>
+    <color name="ef_list_item_press_bg_color">#f0f0f0</color>
+    <color name="ef_list_item_normal_bg_color">#ffffff</color>
+    <color name="ef_list_item_delete_bg">#f58b8b</color>
+    <color name="ef_map_seek_bar_progress">#0e73db</color>
+    <color name="ef_map_seek_bar_bg">#5f6062</color>
+    <!--1208 start-->
+    <color name="ef_map_search_list_bg">#eeeeee</color>
+    <!-- 1215 start-->
+    <color name="notification_time_color">#bcbcbc</color>
+    <color name="notification_title_bg">#FFFFFF</color>
+    <color name="notification_main_bg">#f5f5f5</color>
+    <!-- 1218 start-->
+    <color name="notification_list_item_click_bg">#f0f0f0</color>
+    <color name="ef_search_address_text_color">#66666666</color>
+    <color name="ef_long_unpress_color">#c8c8c8</color>
+    <!-- 0113 start-->
+    <!--color name="ef_save_text_color">#007aff</color> -->
+    <color name="ef_save_text_color">#000000</color>
+    <!--add by Zhangweixiao 1126 end-->
+    <!--add by Qiu start -->
+    <!--add by Qiu end -->
+    <!-- add by chenggong start-->
+    <!-- add by chenggong end-->
+    <!-- Notification by Harvey start-->
+    <color name="notification_item_content_color">#a0a0a0</color>
+    <color name="notification_item_title_color">#454545</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="lawngreen">#7cfc00</color>
+    <color name="olivedrab">#6b8e23</color>
+    <color name="mediumaquamarine">#66cdaa</color>
+    <color name="turquoise">#40e0d0</color>
+    <color name="mediumseagreen">#3cb371</color>
+    <color name="limegreen">#32cd32</color>
+    <color name="darkslategray">#2f4f4f</color>
+    <color name="darkslategrey">#2f4f4f</color>
+    <color name="seagreen">#2e8b57</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="setting_activity_title_color">#454545</color>
+    <color name="setting_activity_no_call_default">#FFFFFF</color>
+
+    <!-- watch bill bottom button text color-->
+    <color name="watch_bill_bottom_button_text_color">#454545</color>
+    <color name="watch_bill_bottom_button_cut_line">#c8c8c8</color>
+    <!-- common transparent color-->
+    <!-- check update button background-->
+    <color name="setting_check_update_activity_button_background">#00BFFF</color>
+    <!-- for bind ui -->
+    <color name="button_disabled_color">#c8c8c8</color>
+    <color name="button_enabled_color">#6cc980</color>
+    <color name="button_enabled_second_color">#FDF097</color>
+    <color name="button_enabled_textcolor">#454545</color>
+    <color name="button_disabled_textcolor">#ffffff</color>
+    <color name="bind_fail_color">#ff6060</color>
+    <color name="bind_success_color">#97d53e</color>
+    <color name="line">#c8c8c8</color>
+    <!-- end -->
+    <!--<color name="title_bar_bg_color">#6cc980</color>-->
+    <!--<color name="btn_bg_normal_color">#6cc980</color>-->
+    <color name="btn_bg_normal_color">#4179d6</color>
+    <!--<color name="btn_bg_press_color">#235f31</color>-->
+    <color name="btn_bg_press_color">#4179d6</color>
+
+    <!-- add by wufeng-->
+    <color name="red">#ffff0000</color>
+    <color name="link_blue">#ff0000ff</color>
+    <color name="black">#ff000000</color>
+    <color name="orange">#FC5A08</color>
+    <color name="dark_grey">#60605D</color>
+    <color name="dark_slate_gray">#FF232323</color>
+    <color name="translucent">#000000</color>
+    <color name="list_item_bg_normal_gray">#55000000</color>
+    <color name="list_item_bg_selected_black">#FF232323</color>
+    <color name="list_item_view_95_white">#FAFAFA</color>
+    <color name="list_item_view_70_white">#FFFFFF</color>
+    <color name="list_item_view_50_gray">#767574</color>
+    <color name="list_item_view_80_yellow">#CFB019</color>
+
+    <!--243 128 74-->
+    <color name="login_selected_color">#4179d6</color>
+    <color name="login_normal_color">#ff666666</color>
+
+    <color name="mise">#E3E3E3</color>
+    <color name="dialog_bg">#d0ffffff</color>
+    <color name="split">#cccccc</color>
+
+    <!-- -->
+    <color name="sy_tw_color">#a3c686</color>
+    <color name="sy_sport_color">#e8a6bf</color>
+    <color name="sy_tiaoshen_color">#f5bd9c</color>
+    <color name="sy_sleep_color">#c7d3e0</color>
+    <color name="yzsp_text_color">#ff7d14</color>
+    <color name="yzzthd_text_color">#53c250</color>
+    <color name="yngg_text_color">#32befc</color>
+    <color name="chat_title_bg">#427BED</color>
+    <color name="google_red">#FFC93437</color>
+    <color name="google_blue">#FF375BF1</color>
+    <color name="google_yellow">#FFF7D23E</color>
+    <color name="google_green">#FF34A350</color>
+    <color name="main_color">#2584ff</color>
+
+    <color name="darkgrey"> #C0C0C0</color>
+
+    <!--深黑-->
+    <color name="deep_black">#e6000000</color>
+    <!--浅黑-->
+    <color name="shallow_black">#cc000000</color>
+    <color name="line_color">#BDBDBD</color>
+
+    <color name="hight_gray">#cc000000</color>
+    <color name="low_gray">#80000000</color>
+    <color name="medium_gray">#80000000</color>
+
+    <!--通讯录的9种颜色-->
+    <color name="color1">#268ee3</color>
+    <color name="color2">#1ec0cb</color>
+    <color name="color3">#43be6d</color>
+    <color name="color4">#f95c2f</color>
+    <color name="color5">#f12733</color>
+    <color name="color6">#5e4cee</color>
+    <color name="color7">#ef2732</color>
+    <color name="color8">#6052e3</color>
+    <color name="color9">#1d8ff0</color>
+</resources>

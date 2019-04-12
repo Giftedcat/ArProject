@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color">
+
+
+        <SurfaceView
+            android:id="@+id/preview_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <lib_zxing.view.ViewfinderView
+            android:id="@+id/viewfinder_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:inner_corner_color="@color/main_color"
+            app:inner_corner_length="30dp"
+            app:inner_corner_width="5dp"
+            app:inner_height="200dp"
+            app:inner_margintop="150dp"
+            app:inner_scan_bitmap="@drawable/saoyisao2"
+            app:inner_scan_iscircle="false"
+            app:inner_scan_speed="10"
+            app:inner_width="200dp" />
+        <LinearLayout
+            android:id="@+id/input_ll"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <EditText
+                android:id="@+id/etImei"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@color/capture_text_cover_bg"
+                android:hint="输入条码"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textColorHint="#ffffffff"/>
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text="确定"
+                android:textSize="14.0sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="95.0dip"
+            android:layout_gravity="bottom|center"
+            android:background="@color/capture_text_cover_bg"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/capture_button_cancel"
+                android:layout_width="70.0dip"
+                android:layout_height="40.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20.0dip"
+                android:text="取消"
+                android:textSize="14.0sp"/>
+
+            <TextView
+                android:id="@+id/capture_bottom_hint"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:text="@string/top_hint"
+                android:textColor="#ffffffff"
+                android:textSize="13.0sp"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

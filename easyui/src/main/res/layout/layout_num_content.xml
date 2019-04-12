@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/style_text_num2"
+        android:text="" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/main_color" />
+
+    <LinearLayout
+        android:id="@+id/class_ll0"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第一节" />
+
+            <TextView
+                android:id="@+id/txtTime0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第二节" />
+
+            <TextView
+                android:id="@+id/txtTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第三节" />
+
+            <TextView
+                android:id="@+id/txtTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第四节" />
+
+            <TextView
+                android:id="@+id/txtTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll4"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第五节" />
+
+            <TextView
+                android:id="@+id/txtTime4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll5"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第六节" />
+
+            <TextView
+                android:id="@+id/txtTime5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll6"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第七节" />
+
+            <TextView
+                android:id="@+id/txtTime6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll7"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第八节" />
+
+            <TextView
+                android:id="@+id/txtTime7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll8"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第九节" />
+
+            <TextView
+                android:id="@+id/txtTime8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll9"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十节" />
+
+            <TextView
+                android:id="@+id/txtTime9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll10"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十一节" />
+
+            <TextView
+                android:id="@+id/txtTime10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll11"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十二节" />
+
+            <TextView
+                android:id="@+id/txtTime11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll12"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十三节" />
+
+            <TextView
+                android:id="@+id/txtTime12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll13"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十四节" />
+
+            <TextView
+                android:id="@+id/txtTime13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll14"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十五节" />
+
+            <TextView
+                android:id="@+id/txtTime14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll15"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十六节" />
+
+            <TextView
+                android:id="@+id/txtTime15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll16"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十七节" />
+
+            <TextView
+                android:id="@+id/txtTime16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll17"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十八节" />
+
+            <TextView
+                android:id="@+id/txtTime17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll18"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第十九节" />
+
+            <TextView
+                android:id="@+id/txtTime18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/class_ll19"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                style="@style/style_text_num"
+                android:text="第二十节" />
+
+            <TextView
+                android:id="@+id/txtTime19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(00:00-00:00)"
+                android:textColor="@color/main_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/main_color" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
